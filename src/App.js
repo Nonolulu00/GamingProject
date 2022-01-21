@@ -11,6 +11,9 @@ function App() {
         <a href="/allumettes.html">
         <img src={GameItem} alt="photo générique de jeux" />
         </a>
+        <a href="/mastermind/Mastermind">
+        <img src={GameItem} alt="photo générique de jeux" />
+        </a>
       </div>
     </div>
   );
