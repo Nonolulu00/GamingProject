@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main--navbar{
+  justify-content: space-between;
+  font-family: 'Play', sans-serif;
+  color:white;
+  padding-left: 40px;
+  font-size: larger;
+  height:90px;
+  width:100%;
+  display: flex;
+  background: rgb(235,95,140);
+background: linear-gradient(90deg, rgba(235,95,140,1) 0%, rgba(246,151,145,1) 100%, rgba(248,175,147,1) 100%, rgba(250,191,149,1) 100%);
+}
+
+.navBar--title{
+  display: flex;
+}
+
+.navBar--links{
+  display:flex;
+  padding-right:100px;
+  padding-top: 40px;
+}
+
+.title-menu{
+  display: flex;
+  justify-content: center;
+  font-family: 'Play', sans-serif;
+}
+
+img{
+  height: 170px;
+  width: 250px;
+}
+
+.items-games{
+  padding-left:30px;
+}
